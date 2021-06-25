@@ -7,65 +7,103 @@
     <title>Document</title>
 
     <script src="/JavaScript/eu.js"></script>
-    <link rel="stylesheet" href="/CSS pasta/eu.css" />
+    <link rel="stylesheet" href="CSS pasta/cssGenerico.css" />
   </head>
 
   <body>
-    <header class="space">
-      <nav>
-        <ul class="menuInicial">
-          <a href="/index.html"><li>Inicio</li></a>
-          <a href="/macetes.html"><li>macetes</li></a>
-          <a href="/aulas.html"><li>Aulas</li></a>
-          <a href="/artigos.html"><li>Artigos</li></a>
-          <a href="/tutoriais.html"><li>Tutoriais</li></a>
-          <a href="/projetos.html"><li>projetos</li></a>
-          <a href="/reviws.html"><li>Reviws</li></a>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Macetes sobre HTML e CSS</h1>
+    <div class="conteinerGrid">
+      <header class="space">
+        <nav>
+          <ul class="menuInicial">
+            <a href="/index.html"><li>Inicio</li></a>
+            <a href="/macetes.html"><li>macetes</li></a>
+            <a href="/aulas.html"><li>Aulas</li></a>
+            <a href="/artigos.html"><li>Artigos</li></a>
+            <a href="/tutoriais.html"><li>Tutoriais</li></a>
+            <a href="/projetos.html"><li>projetos</li></a>
+            <a href="/reviws.html"><li>Reviws</li></a>
+          </ul>
+        </nav>
+      </header>
+      <main id="main">
+        <h1>Macetes sobre HTML e CSS</h1>
 
-      <h2>Margem</h2>
+        <h2>Margem</h2>
 
-      <p>Como tirar a margem do Bady do HTML!!</p>
-      <a href="">
+        <h2>Como tirar a margem do Body do HTML!!</h2>
+        <a href="">
+          <figure>
+            <img
+              src="/imagens/codFundoMargem.png"
+              alt="codigo de um body com margem"
+              class="imgMacetes"
+              title="codigo de um body com margem"
+            />
+          </figure>
+        </a>
+
         <figure>
           <img
-            src="/imagens/codFundoMargem.png"
-            alt="codigo de um body com margem"
+            src="/imagens/fundoMargem.png"
+            alt="imagem do body com margem"
             class="imgMacetes"
-            title="codigo de um body com margem"
+            title="imagem do body com margem"
           />
         </figure>
-      </a>
-
-      <figure>
-        <img
-          src="/imagens/fundoMargem.png"
-          alt="imagem do body com margem"
-          class="imgMacetes"
-          title="imagem do body com margem"
-        />
-      </figure>
-      <figure>
-        <img
-          src="/imagens/codFundoSemMargem.png"
-          alt="codigo de um body sem margem"
-          class="imgMacetes"
-          title="codigo de um body sem margem"
-        />
-      </figure>
-      <figure>
-        <img
-          src="/imagens/fundoSemMargem.png"
-          alt="body sem margem"
-          class="imgMacetes"
-          title="body sem margem"
-        />
-      </figure>
-      <p></p>
-    </main>
+        <figure>
+          <img
+            src="/imagens/codFundoSemMargem.png"
+            alt="codigo de um body sem margem"
+            class="imgMacetes"
+            title="codigo de um body sem margem"
+          />
+        </figure>
+        <figure>
+          <img
+            src="/imagens/fundoSemMargem.png"
+            alt="body sem margem"
+            class="imgMacetes"
+            title="body sem margem"
+          />
+        </figure>
+        <h2>Formatação de textos</h2>
+        <h3>descrição e comandos</h3>
+        <p>Margens em textos: "text-indent: 'medida fixa ou absoluta' "</p>
+        <p>
+          Tamanho da fonte do texto: "font-size: 'medida relativa ou absoluta' "
+        </p>
+        <p>
+          Grossura/peso da fonte: "font-weight: "numero que costuma variar de
+          100 a 700 tendo bold a proporção dos h1 ao h6
+        </p>
+        <p>
+          texto em italico e afins: "font-style: italic, dentre outras
+          propriedades de font-style"
+        </p>
+        <p>
+          Alinhamente de texto: text-aling: left, right, center, justify, para
+          alinhar a esquerda, direita, centro e justificar, respectivamente
+        </p>
+        <p>
+          Altura das linhas entre uma e outra: "line-height: 'tamanho relativo
+          ou absoluto' "
+        </p>
+        <p>
+          Texto sublinhado e remoção de sublinhados e decoração:
+          "text-decoration: underline, none, line-through, etcs"
+        </p>
+        <p>
+          Modificar texto entre maiusculo e minusculo: "text-transform: <br />
+          uppercase 'tudo maiusculo'<br />
+          capitalize 'todas as letras iniciais maiusculas'<br />
+          lowercase 'todas as letras minusculas' "
+        </p>
+        <p>Espaçamento entre as letras: "latter-spacing: 'valor' "</p>
+        <p>Espaçamento entre as palavras: "word-spacing: 'valor' "</p>
+      </main>
+      <aside id="aside"></aside>
+      <div id="asside"></div>
+      <footer id="footer"></footer>
+    </div>
   </body>
 </html>
