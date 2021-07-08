@@ -83,6 +83,10 @@ nav ul li {
   padding: 10px 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   flex-direction: column;
